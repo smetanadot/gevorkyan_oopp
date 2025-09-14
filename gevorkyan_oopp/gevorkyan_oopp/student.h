@@ -1,30 +1,41 @@
 #pragma once
-
-#include <iostream>
 #include <string>
-#include <unordered_map>
+#include <iostream>
+#include <fstream>
+
+
 
 class student {
 private:
 
-	static int MaxID;
-	
-	int id;
+	static int student_max_id;
+
+	int student_id;
 
 	std::string student_name;
 
 	std::string student_surname;
 
-	int age;
+	int student_age;
 
+	std::string student_group;
 
 public:
 
-	int get_id();
-	
+	const void show_student();
+
 	void add_student();
 
-	void show_student(const std::unordered_map<int, student>& students);
+	void save_student(std::ofstream& out_file);
 
-	void save_student(std::ofstream& fout) const;
+	void load_student(std::ifstream& in_file);
+
+	void set_student_group(std::string& student_group_name);
+
+	void set_student_max_id(const int& new_student_max_id);
+
+	const int get_student_id();
+
+	
+
 };
