@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "задача-headman",
+      "appliesTo": "gevorkyan_oopp/gevorkyan_oopp/headman.cpp",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "задача-headman",
+      "appliesTo": "gevorkyan_oopp/gevorkyan_oopp/headman.cpp",
+      "type": "launch"
+    }
+  ]
+}

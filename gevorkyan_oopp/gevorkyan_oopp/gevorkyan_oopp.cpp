@@ -5,9 +5,12 @@
 #include <codecvt>
 #include "student.h"
 #include "group.h"
+#include <C:\local\boost_1_89_0\boost\serialization\access.hpp>
 
 using namespace std;
 
+BOOST_CLASS_EXPORT_IMPLEMENT(student)
+BOOST_CLASS_EXPORT_IMPLEMENT(headman)
 
 int int_verification(int min_value, int max_value) {
     int value;
@@ -27,11 +30,12 @@ int int_verification(int min_value, int max_value) {
 
 void menu() {
     wcout << L"1. Добавить студента" << endl;
-    wcout << L"2. Показать всех студентов" << endl;
-    wcout << L"3. Сохранить группу в файл" << endl;
-    wcout << L"4. Загрузить группу из файла" << endl;
-    wcout << L"5. Удалить всех студентов" << endl;
-    wcout << L"6. Изменить название группы" << endl;
+    wcout << L"2. Добавить старосту" << endl;
+    wcout << L"3. Показать всех студентов" << endl;
+    wcout << L"4. Сохранить группу в файл" << endl;
+    wcout << L"5. Загрузить группу из файла" << endl;
+    wcout << L"6. Удалить всех студентов" << endl;
+    wcout << L"7. Изменить название группы" << endl;
     wcout << L"0. Выход" << endl;
 }
 
@@ -42,45 +46,43 @@ int main() {
     wcin.imbue(locale("rus_rus.866"));
     wcout.imbue(locale("rus_rus.866"));
 
-    group _group;
-    _group.set_group_name(L"Default");
-
+    group _group(L"DEFAULT");
     wstring filename;
     int action;
 
     while (true) {
         menu();
-        action = int_verification(0, 6);
+        action = int_verification(0, 7);
 
         switch (action) {
         case 1: {
-            _group.add_student();
+            _group.add_student(make_shared<student>());
             break;
         }
-        case 2: {
-            _group.show_all_students();
+        case 2:
+        {
+            _group.add_student(make_shared<headman>());
             break;
         }
         case 3: {
-            wcout << L"Введите имя файла: ";
-            getline(wcin, filename);
-            filename += L".txt";
-            wofstream in_file;
-            
-            in_file.open(filename);
-            in_file.imbue(locale("rus_rus.866"));
-            _group.save_students_to_file(in_file);
+            _group.show_all_students();
             break;
         }
         case 4: {
             wcout << L"Введите имя файла: ";
+            
             getline(wcin, filename);
             filename += L".txt";
-
-            wifstream out_file;
+            ofstream in_file(filename, ios::binary);
+            _group.save_students_to_file(in_file);
+            break;
+        }
+        case 5: {
+            wcout << L"Введите имя файла: ";
+            getline(wcin, filename);
+            filename += L".txt";
+            ifstream out_file(filename, ios::binary);
             out_file.open(filename);
-            out_file.imbue(locale("rus_rus.866"));
-
             if (!out_file.is_open()) {
                 wcout << L"Не могу открыть файл: " << filename << endl;
                 out_file.close();
@@ -89,12 +91,12 @@ int main() {
             _group.load_students_from_file(out_file);
             break;
         }
-        case 5: {
+        case 6: {
             _group.delete_all_students();
             wcout << L"Успешно" << endl;
             break;
         }
-        case 6: {
+        case 7: {
             wstring new_group_name;
             wcout << L"Текущее название группы: " << _group.get_group_name() << endl;
             wcout << L"Введите новое название группы: ";

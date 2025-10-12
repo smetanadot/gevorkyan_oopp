@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\SMETANA\\Documents\\GitHub\\gevorkyan_oopp\\gevorkyan_oopp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E3871E76-3E62-45AC-A5D6-78485E206D61}|gevorkyan_oopp\\gevorkyan_oopp.vcxproj|C:\\Users\\SMETANA\\Documents\\GitHub\\gevorkyan_oopp\\gevorkyan_oopp\\gevorkyan_oopp\\group.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E3871E76-3E62-45AC-A5D6-78485E206D61}|gevorkyan_oopp\\gevorkyan_oopp.vcxproj|solutionrelative:gevorkyan_oopp\\group.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E3871E76-3E62-45AC-A5D6-78485E206D61}|gevorkyan_oopp\\gevorkyan_oopp.vcxproj|C:\\Users\\SMETANA\\Documents\\GitHub\\gevorkyan_oopp\\gevorkyan_oopp\\gevorkyan_oopp\\group.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E3871E76-3E62-45AC-A5D6-78485E206D61}|gevorkyan_oopp\\gevorkyan_oopp.vcxproj|solutionrelative:gevorkyan_oopp\\group.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E3871E76-3E62-45AC-A5D6-78485E206D61}|gevorkyan_oopp\\gevorkyan_oopp.vcxproj|C:\\Users\\SMETANA\\Documents\\GitHub\\gevorkyan_oopp\\gevorkyan_oopp\\gevorkyan_oopp\\group.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E3871E76-3E62-45AC-A5D6-78485E206D61}|gevorkyan_oopp\\gevorkyan_oopp.vcxproj|solutionrelative:gevorkyan_oopp\\group.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E3871E76-3E62-45AC-A5D6-78485E206D61}|gevorkyan_oopp\\gevorkyan_oopp.vcxproj|C:\\Users\\SMETANA\\Documents\\GitHub\\gevorkyan_oopp\\gevorkyan_oopp\\gevorkyan_oopp\\gevorkyan_oopp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E3871E76-3E62-45AC-A5D6-78485E206D61}|gevorkyan_oopp\\gevorkyan_oopp.vcxproj|solutionrelative:gevorkyan_oopp\\gevorkyan_oopp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3871E76-3E62-45AC-A5D6-78485E206D61}|gevorkyan_oopp\\gevorkyan_oopp.vcxproj|C:\\Users\\SMETANA\\Documents\\GitHub\\gevorkyan_oopp\\gevorkyan_oopp\\gevorkyan_oopp\\headman.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E3871E76-3E62-45AC-A5D6-78485E206D61}|gevorkyan_oopp\\gevorkyan_oopp.vcxproj|solutionrelative:gevorkyan_oopp\\headman.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E3871E76-3E62-45AC-A5D6-78485E206D61}|gevorkyan_oopp\\gevorkyan_oopp.vcxproj|C:\\Users\\SMETANA\\Documents\\GitHub\\gevorkyan_oopp\\gevorkyan_oopp\\gevorkyan_oopp\\student.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -21,6 +25,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{E3871E76-3E62-45AC-A5D6-78485E206D61}|gevorkyan_oopp\\gevorkyan_oopp.vcxproj|C:\\Users\\SMETANA\\Documents\\GitHub\\gevorkyan_oopp\\gevorkyan_oopp\\gevorkyan_oopp\\student.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E3871E76-3E62-45AC-A5D6-78485E206D61}|gevorkyan_oopp\\gevorkyan_oopp.vcxproj|solutionrelative:gevorkyan_oopp\\student.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3871E76-3E62-45AC-A5D6-78485E206D61}|gevorkyan_oopp\\gevorkyan_oopp.vcxproj|C:\\Users\\SMETANA\\Documents\\GitHub\\gevorkyan_oopp\\gevorkyan_oopp\\gevorkyan_oopp\\headman.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E3871E76-3E62-45AC-A5D6-78485E206D61}|gevorkyan_oopp\\gevorkyan_oopp.vcxproj|solutionrelative:gevorkyan_oopp\\headman.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 216,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,61 +46,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "student.cpp",
+              "DocumentMoniker": "C:\\Users\\SMETANA\\Documents\\GitHub\\gevorkyan_oopp\\gevorkyan_oopp\\gevorkyan_oopp\\student.cpp",
+              "RelativeDocumentMoniker": "gevorkyan_oopp\\student.cpp",
+              "ToolTip": "C:\\Users\\SMETANA\\Documents\\GitHub\\gevorkyan_oopp\\gevorkyan_oopp\\gevorkyan_oopp\\student.cpp",
+              "RelativeToolTip": "gevorkyan_oopp\\student.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-08T17:56:06.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "group.cpp",
               "DocumentMoniker": "C:\\Users\\SMETANA\\Documents\\GitHub\\gevorkyan_oopp\\gevorkyan_oopp\\gevorkyan_oopp\\group.cpp",
               "RelativeDocumentMoniker": "gevorkyan_oopp\\group.cpp",
               "ToolTip": "C:\\Users\\SMETANA\\Documents\\GitHub\\gevorkyan_oopp\\gevorkyan_oopp\\gevorkyan_oopp\\group.cpp",
               "RelativeToolTip": "gevorkyan_oopp\\group.cpp",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAACkAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-09-09T09:02:51.425Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "student.cpp",
-              "DocumentMoniker": "C:\\Users\\SMETANA\\Documents\\GitHub\\gevorkyan_oopp\\gevorkyan_oopp\\gevorkyan_oopp\\student.cpp",
-              "RelativeDocumentMoniker": "gevorkyan_oopp\\student.cpp",
-              "ToolTip": "C:\\Users\\SMETANA\\Documents\\GitHub\\gevorkyan_oopp\\gevorkyan_oopp\\gevorkyan_oopp\\student.cpp",
-              "RelativeToolTip": "gevorkyan_oopp\\student.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "headman.cpp",
+              "DocumentMoniker": "C:\\Users\\SMETANA\\Documents\\GitHub\\gevorkyan_oopp\\gevorkyan_oopp\\gevorkyan_oopp\\headman.cpp",
+              "RelativeDocumentMoniker": "gevorkyan_oopp\\headman.cpp",
+              "ToolTip": "C:\\Users\\SMETANA\\Documents\\GitHub\\gevorkyan_oopp\\gevorkyan_oopp\\gevorkyan_oopp\\headman.cpp",
+              "RelativeToolTip": "gevorkyan_oopp\\headman.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-08T17:56:06.031Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 184,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "group.h",
-              "DocumentMoniker": "C:\\Users\\SMETANA\\Documents\\GitHub\\gevorkyan_oopp\\gevorkyan_oopp\\gevorkyan_oopp\\group.h",
-              "RelativeDocumentMoniker": "gevorkyan_oopp\\group.h",
-              "ToolTip": "C:\\Users\\SMETANA\\Documents\\GitHub\\gevorkyan_oopp\\gevorkyan_oopp\\gevorkyan_oopp\\group.h",
-              "RelativeToolTip": "gevorkyan_oopp\\group.h",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAwBUAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-09-08T15:51:44.866Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "student.h",
-              "DocumentMoniker": "C:\\Users\\SMETANA\\Documents\\GitHub\\gevorkyan_oopp\\gevorkyan_oopp\\gevorkyan_oopp\\student.h",
-              "RelativeDocumentMoniker": "gevorkyan_oopp\\student.h",
-              "ToolTip": "C:\\Users\\SMETANA\\Documents\\GitHub\\gevorkyan_oopp\\gevorkyan_oopp\\gevorkyan_oopp\\student.h",
-              "RelativeToolTip": "gevorkyan_oopp\\student.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-09-08T17:56:00.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-29T15:46:07.635Z"
             },
             {
               "$type": "Document",
@@ -102,10 +89,52 @@
               "RelativeDocumentMoniker": "gevorkyan_oopp\\gevorkyan_oopp.cpp",
               "ToolTip": "C:\\Users\\SMETANA\\Documents\\GitHub\\gevorkyan_oopp\\gevorkyan_oopp\\gevorkyan_oopp\\gevorkyan_oopp.cpp",
               "RelativeToolTip": "gevorkyan_oopp\\gevorkyan_oopp.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEsAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-08T14:48:24.074Z",
+              "WhenOpened": "2025-09-08T14:48:24.074Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 216,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "student.h",
+              "DocumentMoniker": "C:\\Users\\SMETANA\\Documents\\GitHub\\gevorkyan_oopp\\gevorkyan_oopp\\gevorkyan_oopp\\student.h",
+              "RelativeDocumentMoniker": "gevorkyan_oopp\\student.h",
+              "ToolTip": "C:\\Users\\SMETANA\\Documents\\GitHub\\gevorkyan_oopp\\gevorkyan_oopp\\gevorkyan_oopp\\student.h",
+              "RelativeToolTip": "gevorkyan_oopp\\student.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-08T17:56:00.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "group.h",
+              "DocumentMoniker": "C:\\Users\\SMETANA\\Documents\\GitHub\\gevorkyan_oopp\\gevorkyan_oopp\\gevorkyan_oopp\\group.h",
+              "RelativeDocumentMoniker": "gevorkyan_oopp\\group.h",
+              "ToolTip": "C:\\Users\\SMETANA\\Documents\\GitHub\\gevorkyan_oopp\\gevorkyan_oopp\\gevorkyan_oopp\\group.h",
+              "RelativeToolTip": "gevorkyan_oopp\\group.h",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwCMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-08T15:51:44.866Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "headman.h",
+              "DocumentMoniker": "C:\\Users\\SMETANA\\Documents\\GitHub\\gevorkyan_oopp\\gevorkyan_oopp\\gevorkyan_oopp\\headman.h",
+              "RelativeDocumentMoniker": "gevorkyan_oopp\\headman.h",
+              "ToolTip": "C:\\Users\\SMETANA\\Documents\\GitHub\\gevorkyan_oopp\\gevorkyan_oopp\\gevorkyan_oopp\\headman.h",
+              "RelativeToolTip": "gevorkyan_oopp\\headman.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-28T13:49:08.689Z"
             }
           ]
         }

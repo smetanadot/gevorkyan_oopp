@@ -2,21 +2,35 @@
 #include <string>
 #include <iostream>
 #include <fstream>
+#include <boost/serialization/access.hpp>
+#include <boost/serialization/string.hpp>
+#include <boost/serialization/export.hpp>
+#include <boost/serialization/base_object.hpp>
 
 class student {
-private:
-    static int student_max_id;
+protected:
     int student_id;
     std::wstring student_name;
     std::wstring student_surname;
     int student_age;
     std::wstring student_group;
 public:
-    const void show_student();
-    void add_student();
-    void save_student(std::wofstream& out_file);
-    void load_student(std::wifstream& in_file);
+    student() : student_id(0), student_name(L""), student_surname(L""), student_age(0), student_group(L"") {};
+    student(int student_id, std::wstring& student_name, std::wstring& student_surname, int student_age, std::wstring& student_group);
+    virtual ~student();
+    virtual void show_student();
+    virtual void add_student();
     void set_student_group(std::wstring& student_group_name);
-    void set_student_max_id(const int& new_student_max_id);
-    const int get_student_id();
+    void set_student_id(int& id);
+    int get_student_id();
+    template<class Archive>
+    void serialize(Archive& ar, const unsigned int version) {
+        ar& student_id;
+        ar& student_name;
+        ar& student_surname;
+        ar& student_age;
+        ar& student_group;
+    }
 };
+
+BOOST_CLASS_EXPORT_KEY(student)

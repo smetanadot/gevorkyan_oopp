@@ -1,11 +1,13 @@
 #include "student.h"
-#include <iostream>
 
 using namespace std;
 
-int student::student_max_id = 1;
+student::student(int student_id, std::wstring& student_name, std::wstring& student_surname, int student_age, std::wstring& student_group) : student_id(student_id), student_name(student_name), student_surname(student_surname), student_age(student_age), student_group(student_group) {};
 
-const void student::show_student() {
+student::~student() {}
+
+
+void student::show_student() {
     wcout << L"ID: " << student_id << endl
         << L"Имя: " << student_name << endl
         << L"Фамилия: " << student_surname << endl
@@ -20,40 +22,17 @@ void student::add_student() {
     getline(wcin, student_surname);
     wcout << L"Введите возраст: " << endl;
     wcin >> student_age;
-
-    student_id = student_max_id;
-    student_max_id++;
 }
 
-void student::save_student(wofstream& out_file) {
-    out_file << student_id << endl
-        << student_name << endl
-        << student_surname << endl
-        << student_age << endl
-        << student_group << endl;
-}
-
-void student::load_student(wifstream& in_file) {
-    in_file >> student_id;
-    in_file.ignore(256, '\n');
-
-    getline(in_file, student_name);
-    getline(in_file, student_surname);
-
-    in_file >> student_age;
-    in_file.ignore(256, '\n');
-
-    getline(in_file, student_group);
-}
 
 void student::set_student_group(wstring& student_group_name) {
     student_group = student_group_name;
 }
 
-const int student::get_student_id() {
-    return student_id;
+void student::set_student_id(int& id) {
+    student_id = id;
 }
 
-void student::set_student_max_id(const int& new_student_max_id) {
-    student_max_id = new_student_max_id;
+int student::get_student_id() {
+    return student_id;
 }
